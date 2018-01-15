@@ -32,9 +32,9 @@ client.on('message', message => {
 	}
 
 	if (msg === '召喚ボックス') {
-		const rt = Math.random();
-		const rb = Math.random();
-		message.reply(t[rt.nextInt(6)]+' '+b[rb.nextInt(9)]+' '+'獲得!!');
+		const toko = t[Math.floor(Math.random() * t.length)];
+		const buki = b[Math.floor(Math.random() * b.length)];
+		message.reply(toko+' '+buki+' '+'獲得!!');
 	}
 });
 
