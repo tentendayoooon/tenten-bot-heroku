@@ -15,6 +15,9 @@ client.on('message', message => {
 		message.reply('うさぎ_(:3 」∠)');
 	}
 	*/
+	if (msg.indexof('おはよ') !== -1) {
+		message.reply('うさぎ_(:3 」∠)');
+	}
 	if (msg === 'こんにちは') {
 		message.reply('わにわに_(:3 」∠)');
 	}
