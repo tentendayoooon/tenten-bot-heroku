@@ -16,13 +16,16 @@ client.on('message', message => {
 	}
 	*/
 	if (msg.indexOf('おはよ') !== -1) {
-		message.reply('うさぎ_(:3 」∠)');
+		message.reply('うさぎ_(:3 」∠)_');
 	}
 	if (msg === 'こんにちは') {
-		message.reply('わにわに_(:3 」∠)');
+		message.reply('わにわに_(:3 」∠)_');
 	}
 	if (msg === 'こんばんは') {
-		message.reply('わにわに_(:3 」∠)');
+		message.reply('わにわに_(:3 」∠)_');
+	}
+	if (msg.indexOf('おやす') !== -1) {
+		message.reply('ヴァルスミーレ');
 	}
 });
 
