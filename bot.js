@@ -32,8 +32,8 @@ client.on('message', message => {
 	}
 
 	if (msg === '召喚ボックス') {
-		const rt = new Random();
-		const rb = new Random();
+		const rt = Math.random();
+		const rb = Math.random();
 		message.reply(t[rt.nextInt(6)]+' '+b[rb.nextInt(9)]+' '+'獲得!!');
 	}
 });
