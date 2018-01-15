@@ -20,7 +20,7 @@ client.on('message', message => {
     if (message.content === 'こんばんは') {
     	message.reply('わにわに_(:3 」∠)');
 		}
-		if(message.content.contains('おはよ'))
+		if(message.content.startwith('おはよ'))
 		{
     	message.reply('うさぎ_(:3 」∠)');
 		}
