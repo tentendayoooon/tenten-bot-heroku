@@ -10,9 +10,11 @@ client.on('message', message => {
 	if (msg === 'ping') {
 		message.reply('pong');
 	}
+	/*
 	if (msg === 'おはよ') {
 		message.reply('うさぎ_(:3 」∠)');
 	}
+	*/
 	if (msg === 'こんにちは') {
 		message.reply('わにわに_(:3 」∠)');
 	}
