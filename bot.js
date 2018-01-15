@@ -8,8 +8,13 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
-  	}
+		}
+		/*
     if (message.content === 'おはよ') {
+    	message.reply('うさぎ_(:3 」∠)');
+		}
+		*/
+    if (message.IndexOf('おはよ') > -1) {
     	message.reply('うさぎ_(:3 」∠)');
   	}
     if (message.content === 'こんにちは') {
