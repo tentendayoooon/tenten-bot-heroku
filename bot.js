@@ -11,8 +11,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	const msg = message.content;
-	if (msg === 'ping') {
-		message.reply('pong');
+	if (msg === '!help') {
+		// help表示
+		message.reply('!ping');
+		message.reply('*おはよ*');
+		message.reply('こんにちは');
+		message.reply('こんばんは*');
+		message.reply('*おやす*');
+		message.reply('召喚ボックス');
+		message.reply('素材ボックス');
+	}
+
+	if (msg === '!ping') {
+		message.reply('!pong');
 	}
 	/*
 	if (msg === 'おはよ') {
