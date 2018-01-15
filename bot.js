@@ -22,8 +22,8 @@ client.on('message', message => {
 			'\nこんにちは : 昼の挨拶。' + 
 			'\nこんばんは : 夜の挨拶。' + 
 			'\n*おやす* : おやすみの挨拶。' + 
-			'\n装備合成 : どんな装備ができるかな？' + 
-			'\n素材ボックス : どんな素材が出るかな？'
+			'\n合成 : どんな装備ができるかな？' + 
+			'\n素材 : どんな素材が出るかな？'
 		;
 		message.reply(meshelp);
 	}
@@ -49,13 +49,13 @@ client.on('message', message => {
 		message.reply('ヴァルスミーレ');
 	}
 
-	if (msg === '召喚ボックス') {
+	if (msg === '合成') {
 		const rank = a_rank[Math.floor(Math.random() * a_rank.length)];
 		const toko = a_toko[Math.floor(Math.random() * a_toko.length)];
 		const buki = a_buki[Math.floor(Math.random() * a_buki.length)];
 		message.reply(rank+" ランクの "+toko+' '+buki+' '+'完成 !!');
 	}
-	if (msg === '素材ボックス') {
+	if (msg === '素材') {
 		const sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
 		message.reply(sozai+' '+'獲得!!');
 	}
