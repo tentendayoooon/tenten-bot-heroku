@@ -10,7 +10,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+	if (message.author.equals(bot.user)) return;
 	const msg = message.content;
+	
 	if (msg === '!help') {
 		// help表示
 		message.reply('!ping');
