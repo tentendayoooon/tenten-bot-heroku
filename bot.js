@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const t = ['ノーマル特攻','エリート特攻','ボス特攻','魔物特攻(赤)','PVP特攻(青)','モンスト特攻(黄)'];
-const b = ['片手剣','二刀流','槍','短剣','弓','頭','鎧','腕','足'];
+const a_toko = ['ノーマル特攻','エリート特攻','ボス特攻','魔物特攻(赤)','PVP特攻(青)','モンスト特攻(黄)'];
+const a_buki = ['片手剣','二刀流','槍','短剣','弓','頭','鎧','腕','足'];
+const a_sozai = ['HPポーション','MPポーション','ソウルショット','エリクサーエッセンス','各色の薬草','血の証','ページ：アブソリュートシールド','ページ：ヒーリングストライク','ルーンの欠片','アデナボックス（小）','アデナボックス','R～SRランクソウルストーン','武器強化スクロール','防具強化スクロール','装飾品強化スクロール','武器昇級石','防具昇級石','装飾品昇級石','祝福された武器強化スクロール','祝福された防具強化スクロール','祝福された装飾品強化スクロール','マーブルの加護'];
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -32,9 +33,13 @@ client.on('message', message => {
 	}
 
 	if (msg === '召喚ボックス') {
-		const toko = t[Math.floor(Math.random() * t.length)];
-		const buki = b[Math.floor(Math.random() * b.length)];
+		const toko = a_toko[Math.floor(Math.random() * a_toko.length)];
+		const buki = a_buki[Math.floor(Math.random() * a_buki.length)];
 		message.reply(toko+' '+buki+' '+'獲得!!');
+	}
+	if (msg === '素材ボックス') {
+		const sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
+		message.reply(sozai+' '+'獲得!!');
 	}
 });
 
