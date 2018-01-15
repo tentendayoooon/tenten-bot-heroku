@@ -9,15 +9,21 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
 		}
+		/*
     if (message.content === 'おはよ') {
     	message.reply('うさぎ_(:3 」∠)');
 		}
+		*/
     if (message.content === 'こんにちは') {
     	message.reply('わにわに_(:3 」∠)');
   	}
     if (message.content === 'こんばんは') {
     	message.reply('わにわに_(:3 」∠)');
-  	}
+		}
+		if(message.content.contains('おはよ'))
+		{
+    	message.reply('うさぎ_(:3 」∠)');
+		}
 });
 
 // THIS  MUST  BE  THIS  WAY
