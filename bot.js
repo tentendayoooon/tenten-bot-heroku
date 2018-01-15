@@ -15,13 +15,16 @@ client.on('message', message => {
 
 	if (msg === '!help') {
 		// help表示
-		message.reply('!ping');
-		message.reply('*おはよ*');
-		message.reply('こんにちは');
-		message.reply('こんばんは*');
-		message.reply('*おやす*');
-		message.reply('召喚ボックス');
-		message.reply('素材ボックス');
+		const meshelp = String.format(
+			'!ping%n' + 
+			'*おはよ*%n' + 
+			'こんにちは%n' + 
+			'こんばんは%n' + 
+			'*おやす*%n' + 
+			'召喚ボックス%n' + 
+			'素材ボックス'
+		);
+		message.reply(meshelp);
 	}
 
 	if (msg === '!ping') {
