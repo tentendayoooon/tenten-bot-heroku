@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const a_rank = ['R','HR','SR','UR'];
+const a_rank = ['HR','SR','UR'];
 const a_toko = ['ノーマル特性','エリート特性','ボス特性','魔物特性(赤)','PVP特性(青)','モンスト特性(黄)'];
 const a_buki = ['片手剣','二刀流','槍','短剣','弓','頭','鎧','腕','足'];
 const a_sozai = ['HPポーション 1,000個','HPポーション 1個','MPポーション 1,000個','MPポーション 1個'
