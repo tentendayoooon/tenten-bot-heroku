@@ -74,7 +74,9 @@ client.on('message', message => {
 	}
 
 	if (msg.indexOf('コア') === 0) {
-		let monster = args[0];
+		console.log(msg);
+		
+		let monster = 'アール';
 		message.reply(a_core[monster]);
 	}
 });
