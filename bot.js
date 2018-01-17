@@ -25,7 +25,7 @@ client.on('message', message => {
 
 	if (msg === '!help') {
 		// help表示
-		const meshelp = 
+		let meshelp = 
 			'\n!ping : pongを返信。' + 
 			'\n*おはよ* : 朝の挨拶。' + 
 			'\nこんにちは : 昼の挨拶。' + 
