@@ -15,6 +15,9 @@ const a_sozai = ['HPポーション 1,000個','HPポーション 1個','MPポー
 				,'祝福された防具強化スクロール','祝福された装飾品強化スクロール','マーブルの加護'
 				,'ェビの天ぷら 3本','あいふんX 1台','天丼 1杯','茄子 1箱','トマト 1年分'];
 
+const a_core = [];
+	a_core['アール'] = 'グルーディン街道->オルマフム射手(Lv26)';
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -68,6 +71,10 @@ client.on('message', message => {
 	if (msg === '素材') {
 		let sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
 		message.reply(sozai+' 獲得 !!');
+	}
+
+	if (msg === '!コア') {
+		message.reply(a_core['アール']);
 	}
 });
 
