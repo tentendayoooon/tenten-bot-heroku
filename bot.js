@@ -73,8 +73,9 @@ client.on('message', message => {
 		message.reply(sozai+' 獲得 !!');
 	}
 
-	if (msg === '!コア') {
-		message.reply(a_core['アール']);
+	if (msg.indexOf('コア') === 0) {
+		let monster = args[0];
+		message.reply(a_core[monster]);
 	}
 });
 
