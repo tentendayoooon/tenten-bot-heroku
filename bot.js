@@ -158,7 +158,6 @@ client.on('message', message => {
 	if (msg === '!help') {
 		// help表示
 		let meshelp = 
-			'\n・!ping : pongを返信。' + 
 			'\n・*おはよ* : 朝の挨拶。' + 
 			'\n・こんにちは : 昼の挨拶。' + 
 			'\n・こんばんは : 夜の挨拶。' + 
@@ -171,8 +170,8 @@ client.on('message', message => {
 		message.reply(meshelp);
 	}
 
-	if (msg === '!ping') {
-		message.reply('!pong');
+	if (msg === '$ping') {
+		message.reply('$pong');
 	}
 	/*
 	if (msg === 'おはよ') {
