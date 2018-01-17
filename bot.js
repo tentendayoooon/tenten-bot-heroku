@@ -78,7 +78,7 @@ client.on('message', message => {
 		const args = message.content.slice(prefix.length).trim().split(/ +/g);
   		const command = args.shift().toLowerCase();
 		let monster = args[0];
-		console/log(a_core[monster]);
+		console.log(a_core[monster]);
 		message.reply(a_core[monster]);
 	}
 });
