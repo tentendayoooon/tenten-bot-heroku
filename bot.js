@@ -74,13 +74,11 @@ client.on('message', message => {
 	}
 
 	if (msg.indexOf('！コア') === 0) {
-		console.log(msg);
 		const prefix = '！';
 		const args = message.content.slice(prefix.length).trim().split(/ +/g);
   		const command = args.shift().toLowerCase();
-		console.log(args);
-		console.log(command);
 		let monster = args[0];
+		console/log(a_core[monster]);
 		message.reply(a_core[monster]);
 	}
 });
