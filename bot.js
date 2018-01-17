@@ -170,8 +170,8 @@ client.on('message', message => {
 		message.reply(meshelp);
 	}
 
-	if (msg === '$ping') {
-		message.reply('$pong');
+	if (msg === '!ping') {
+		message.reply('!pong');
 	}
 	/*
 	if (msg === 'おはよ') {
