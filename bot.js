@@ -21,7 +21,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	if (message.author.equals(client.user)) return;
-	const msg = message.content;
+	let msg = message.content;
 
 	if (msg === '!help') {
 		// help表示
