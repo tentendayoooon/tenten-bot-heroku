@@ -80,7 +80,7 @@ client.on('message', message => {
   		const command = args.shift().toLowerCase();
 		console.log(args);
 		console.log(command);
-		let monster = 'アール';
+		let monster = args[0];
 		message.reply(a_core[monster]);
 	}
 });
