@@ -79,7 +79,14 @@ client.on('message', message => {
   		const command = args.shift().toLowerCase();
 		let monster = args[0];
 		console.log(a_core[monster]);
-		message.reply(a_core[monster]);
+		if (a_core[monster] == undefined)
+		{
+			message.reply('敵の名前を間違えてます。');
+		}
+		else
+		{
+			message.reply(a_core[monster]);
+		}
 	}
 });
 
