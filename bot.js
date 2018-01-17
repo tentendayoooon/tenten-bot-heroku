@@ -60,13 +60,13 @@ client.on('message', message => {
 	}
 
 	if (msg === '合成') {
-		const rank = a_rank[Math.floor(Math.random() * a_rank.length)];
-		const toko = a_toko[Math.floor(Math.random() * a_toko.length)];
-		const buki = a_buki[Math.floor(Math.random() * a_buki.length)];
+		let rank = a_rank[Math.floor(Math.random() * a_rank.length)];
+		let toko = a_toko[Math.floor(Math.random() * a_toko.length)];
+		let buki = a_buki[Math.floor(Math.random() * a_buki.length)];
 		message.reply(rank+" ランクの "+toko+' '+buki+' 完成 !!');
 	}
 	if (msg === '素材') {
-		const sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
+		let sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
 		message.reply(sozai+' 獲得 !!');
 	}
 });
