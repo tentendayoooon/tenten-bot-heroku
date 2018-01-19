@@ -3,8 +3,9 @@ const client = new Discord.Client();
 
 //#region 武器合成配列
 const a_rank = ['HR','SR','UR'];
-const a_toko = ['ノーマル特性','エリート特性','ボス特性','魔物特性(赤)','PVP特性(青)','モンスト特性(黄)'];
-const a_buki = ['片手剣','二刀流','槍','短剣','弓','頭','鎧','腕','足'];
+const a_toku = ['ノーマル特性','エリート特性','ボス特性','魔物特性(赤)','PVP特性(青)','モンスト特性(黄)',
+				'ヴァルス特性','タカぼん特性','ゲームくそ特性'];
+const a_buki = ['片手剣','二刀流','槍','短剣','弓','杖','頭','鎧','腕','足'];
 //#endregion
 
 //#region 素材配列
@@ -193,9 +194,9 @@ client.on('message', message => {
 
 	if (msg === '合成') {
 		let rank = a_rank[Math.floor(Math.random() * a_rank.length)];
-		let toko = a_toko[Math.floor(Math.random() * a_toko.length)];
+		let toku = a_toku[Math.floor(Math.random() * a_toku.length)];
 		let buki = a_buki[Math.floor(Math.random() * a_buki.length)];
-		message.reply(rank+" ランクの "+toko+' '+buki+' 完成 !!');
+		message.reply(rank+" ランクの "+toku+' '+buki+' 完成 !!');
 	}
 	if (msg === '素材') {
 		let sozai = a_sozai[Math.floor(Math.random() * a_sozai.length)];
