@@ -149,7 +149,7 @@ client.on('message', message => {
 		message.reply('!pong');
 	}
 
-	if ((message.channel.id == '509263779343630347') && (msg== '!ガチャ')) {
+	if (msg == '!ガチャ') {
 		// botガチャ部屋でのみ動作
 		let gacha = a_Gacha[Math.floor(Math.random() * a_Gacha.length)];
 		message.reply(gacha+' が出たよ !!');
