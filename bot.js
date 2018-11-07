@@ -134,6 +134,7 @@ client.on('message', message => {
 	if (message.author.equals(client.user)) return;
 	let msg = message.content;
 
+	/*
 	if (msg === '!help') {
 		// help表示
 		let meshelp = 
@@ -142,7 +143,8 @@ client.on('message', message => {
 		;
 		message.reply(meshelp);
 	}
-
+	*/
+	
 	if (msg === '!ping') {
 		message.reply('!pong');
 	}
