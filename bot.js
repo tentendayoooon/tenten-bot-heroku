@@ -134,49 +134,18 @@ client.on('message', message => {
 	if (message.author.equals(client.user)) return;
 	let msg = message.content;
 
-	/*
 	if (msg === '!help') {
 		// help表示
 		let meshelp = 
-			//'\n・*おはよ* : 朝の挨拶。' + 
-			//'\n・こんにちは : 昼の挨拶。' + 
-			//'\n・こんばんは : 夜の挨拶。' + 
-			//'\n・*おやす* : おやすみの挨拶。' + 
-			'\n・ガチャ : キャラとドラゴンのガチャだよ。（護符は準備中）' + 
+			'\n・*!ガチャ* : キャラとドラゴンのガチャだよ。（護符は準備中）' + 
 			''
 		;
 		message.reply(meshelp);
 	}
-	*/
 
 	if (msg === '!ping') {
 		message.reply('!pong');
 	}
-	/*
-	if (msg === 'おはよ') {
-		message.reply('うさぎ_(:3 」∠)');
-	}
-	*/
-	/*
-	if (msg.indexOf('おはよ') !== -1) {
-		message.reply('おはしぇら～');
-	}
-	*/
-	/*
-	if (msg === 'こんにちは') {
-		message.reply('わにわに_(:3 」∠)_');
-	}
-	*/
-	/*
-	if (msg === 'こんばんは') {
-		message.reply('わにわに_(:3 」∠)_');
-	}
-	*/
-	/*
-	if (msg.indexOf('おやす') !== -1) {
-		message.reply('ヴァルスミーレ');
-	}
-	*/
 
 	if ((message.channel.id == '509263779343630347') && (msg.indexOf('!ガチャ'))) {
 		// botガチャ部屋でのみ動作
