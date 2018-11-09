@@ -197,7 +197,7 @@ const a_Gacha = [
 	,'[キャラクター] ☆☆☆☆ 寝るシェラ https://i.ytimg.com/vi/dTOM1_eKaLk/hqdefault.jpg'
 	,'[キャラクター] ☆☆☆☆ 寝るフィリス [[画像提供求む！]]'
 	,'[キャラクター] ☆☆☆☆ ゼシア https://cdn.gamerch.com/contents/wiki/70/entry/4CaoGgos.png'
-	,'[キャラクター] ☆☆☆☆ シーリス https://cdn.gamerch.com/contents/wiki/70/entry/YPzshu0a.jpg'
+	,'[キャラクター] ☆☆☆☆ シーリス https://cdn.gamerch.com/contents/wiki/70/entry/TedcsiV5.jpg'
 	,'[キャラクター] ☆☆☆☆ アローラス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121429_i.png'
 	,'[キャラクター] ☆ エミュール https://cdn.gamerch.com/contents/wiki/70/entry/pwAHaNj9.jpg'
 	,'[キャラクター] ☆☆☆ ヴァルクス https://cdn.gamerch.com/contents/wiki/70/entry/uFnIAavN.jpg'
