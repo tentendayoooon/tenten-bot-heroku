@@ -206,6 +206,7 @@ const a_Gacha = [
 	,'[キャラクター] ☆☆☆ レオニード https://cdn.gamerch.com/contents/wiki/70/entry/jcz7rSkb.jpg'
 	,'[キャラクター] ☆☆☆ ハール https://cdn.gamerch.com/contents/wiki/70/entry/WXiaQKPK.jpg'
 	,'[キャラクター] ☆☆☆ リーフ https://cdn.gamerch.com/contents/wiki/70/entry/YPzshu0a.jpg'
+	,'[キャラクター] ☆☆☆☆☆ この世ならざるもの https://stamp.bokete.jp/62357695.png'
 	
 	,'[ドラゴン] ☆☆☆ ナーム http://livedoor.blogimg.jp/dragalialostn10cg/imgs/7/b/7b749225-s.png'
 	,'[ドラゴン] ☆☆☆☆☆ バハムート http://tn.smilevideo.jp/smile?i=25973277.L'
