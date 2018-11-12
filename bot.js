@@ -243,6 +243,7 @@ client.on('message', message => {
 
 	if (msg === 'あのなあ') {
 		message.channel.send('あのなあ　やるよ');
+		message.channel.send('https://imgur.com/a/0O9Z5QW');
 		//const attachment = new MessageAttachment('/stamp/あのなあ.png');
 		//message.channel.send(`${message.author}, here are your memes!`, attachment);
 		message.channel.send('あのなあ　やったよ');
