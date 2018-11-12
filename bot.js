@@ -242,12 +242,12 @@ client.on('message', message => {
 	if (msg.indexOf('!NG') !== -1) {message.channel.send('https://imgur.com/KGQZCo7'); }
 	if (msg.indexOf('!あのなあ') !== -1) {message.channel.send('https://imgur.com/a/0O9Z5QW'); }
 	if (msg.indexOf('!あぶない') !== -1) {message.channel.send('https://imgur.com/F09HXqv'); }
-	if (msg.indexOf('!ありがとう') !== -1) {message.channel.send('https://imgur.com/F09HXqv'); }
+	if (msg.indexOf('!ありがとう') !== -1) {message.channel.send('https://imgur.com/3PV4tYH'); }
 	if (msg.indexOf('!いくよ') !== -1) {message.channel.send('https://imgur.com/mKSxhgW'); }
 	if (msg.indexOf('!いまいく') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
-	if (msg.indexOf('!うっ') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
-	if (msg.indexOf('!おつかれ') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
-	if (msg.indexOf('!おっけー') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
+	if (msg.indexOf('!うっ') !== -1) {message.channel.send('https://imgur.com/8P9I8n6'); }
+	if (msg.indexOf('!おつかれ') !== -1) {message.channel.send('https://imgur.com/mbDoKub'); }
+	if (msg.indexOf('!おっけー') !== -1) {message.channel.send('https://imgur.com/pOmQupW'); }
 	if (msg.indexOf('!かいふく') !== -1) {message.channel.send('https://imgur.com/iLCqWEY'); }
 	if (msg.indexOf('!ぐぬぬ') !== -1) {message.channel.send('https://imgur.com/Phkr7V0'); }
 	if (msg.indexOf('!ごめんね') !== -1) {message.channel.send('https://imgur.com/pBZYfQv'); }
