@@ -237,16 +237,42 @@ client.on('message', message => {
 	}
 	*/
 
-	if (msg === '!ping') {
-		message.reply('!pong');
-	}
+	if (msg === '!ping') { message.reply('!pong'); }
 
-	if (msg === 'あのなあ') {
-		message.channel.send('あのなあ　やるよ');
-		message.channel.send('https://imgur.com/a/0O9Z5QW');
-		//const attachment = new MessageAttachment('/stamp/あのなあ.png');
-		//message.channel.send(`${message.author}, here are your memes!`, attachment);
-		message.channel.send('あのなあ　やったよ');
+	if (msg.indexOf('NG') !== -1) {message.channel.send('https://imgur.com/KGQZCo7'); }
+	if (msg.indexOf('あのなあ') !== -1) {message.channel.send('https://imgur.com/a/0O9Z5QW'); }
+	if (msg.indexOf('あぶない') !== -1) {message.channel.send('https://imgur.com/F09HXqv'); }
+	if (msg.indexOf('ありがとう') !== -1) {message.channel.send('https://imgur.com/F09HXqv'); }
+	if (msg.indexOf('いくよ') !== -1) {message.channel.send('https://imgur.com/mKSxhgW'); }
+	if (msg.indexOf('いまいく') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
+	if (msg.indexOf('うっ') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
+	if (msg.indexOf('おつかれ') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
+	if (msg.indexOf('おっけー') !== -1) {message.channel.send('https://imgur.com/zaxGdPu'); }
+	if (msg.indexOf('かいふく') !== -1) {message.channel.send('https://imgur.com/iLCqWEY'); }
+	if (msg.indexOf('ぐぬぬ') !== -1) {message.channel.send('https://imgur.com/Phkr7V0'); }
+	if (msg.indexOf('ごめんね') !== -1) {message.channel.send('https://imgur.com/pBZYfQv'); }
+	if (msg.indexOf('ぜったい勝つ') !== -1) {message.channel.send('https://imgur.com/w4RLVff'); }
+	if (msg.indexOf('たすけて') !== -1) {message.channel.send('https://imgur.com/WS7VmL0'); }
+	if (msg.indexOf('チャンス') !== -1) {message.channel.send('https://imgur.com/V3nAnLs'); }
+	if (msg.indexOf('どんまい') !== -1) {message.channel.send('https://imgur.com/7G7s9Sp'); }
+	if (msg.indexOf('ナイス') !== -1) {message.channel.send('https://imgur.com/JRNyoai'); }
+	if (msg.indexOf('にやり') !== -1) {message.channel.send('https://imgur.com/DTlXJNj'); }
+	if (msg.indexOf('ひえー') !== -1) {message.channel.send('https://imgur.com/z37DLQR'); }
+	if (msg.indexOf('ヒャッホー') !== -1) {message.channel.send('https://imgur.com/jhyjRiT'); }
+	if (msg.indexOf('ほっ') !== -1) {message.channel.send('https://imgur.com/Y6FC3EO'); }
+	if (msg.indexOf('まかせろ') !== -1) {message.channel.send('https://imgur.com/mUGnRW6'); }
+	if (msg.indexOf('マジで') !== -1) {message.channel.send('https://imgur.com/MDvuQeS'); }
+	if (msg.indexOf('まってー') !== -1) {message.channel.send('https://imgur.com/KHrWQiy'); }
+	if (msg.indexOf('やった') !== -1) {message.channel.send('https://imgur.com/wfGFPRk'); }
+	if (msg.indexOf('よろしく') !== -1) {message.channel.send('https://imgur.com/Hf4TCHv'); }
+	if (msg.indexOf('回復求む') !== -1) {message.channel.send('https://imgur.com/872ybnZ'); }
+	if (msg.indexOf('攻撃おねがい') !== -1) {message.channel.send('https://imgur.com/P5xo4p1'); }
+	if (msg.indexOf('攻撃担当') !== -1) {message.channel.send('https://imgur.com/dxZbjB5'); }
+	if (msg.indexOf('防御は俺') !== -1) {message.channel.send('https://imgur.com/1ClglGf'); }
+	if (msg.indexOf('防御は任せた') !== -1) {message.channel.send('https://imgur.com/bkDlgIj'); }
+
+	if (msg === '!スタンプ') {
+		message.reply('NG, あのなあ, あぶない, ありがとう, いくよ, いまいく, うっ, おつかれ, おっけー, かいふく, ぐぬぬ, ごめんね, ぜったい勝つ, たすけて, チャンス, どんまい, ナイス, にやり, ひえー, ヒャッホー, ほっ, まかせろ, マジで, まってー, やった, よろしく, 回復求む, 攻撃おねがい, 攻撃担当, 防御は俺, 防御は任せた');
 	}
 
 	if (msg.indexOf('!ガチャ') !== -1) {
