@@ -241,6 +241,10 @@ client.on('message', message => {
 		message.reply('!pong');
 	}
 
+	if (msg === 'あのなあ') {
+		message.channel.send('!pong', { file: { attachment: /stamp/あのなあ.png } });
+	}
+
 	if (msg.indexOf('!ガチャ') !== -1) {
 		// botガチャ部屋でのみ動作
 		let gacha = a_Gacha[Math.floor(Math.random() * a_Gacha.length)];
