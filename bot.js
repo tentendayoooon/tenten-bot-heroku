@@ -243,8 +243,8 @@ client.on('message', message => {
 
 	if (msg === 'あのなあ') {
 		message.channel.send('あのなあ　やるよ');
-		const attachment = new MessageAttachment('./stamp/あのなあ.png');
-		message.channel.send(`${message.author}, here are your memes!`, attachment);
+		//const attachment = new MessageAttachment('./stamp/あのなあ.png');
+		//message.channel.send(`${message.author}, here are your memes!`, attachment);
 	}
 
 	if (msg.indexOf('!ガチャ') !== -1) {
