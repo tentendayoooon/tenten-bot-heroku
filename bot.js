@@ -75,6 +75,9 @@ const a_Gacha = [
     ,'[キャラクター] ★★★ ジーズ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/122623_i.png'
     ,'[キャラクター] ★★★ ハロウィンエドワード https://gamewith.akamaized.net/article_tools/dragalialost/gacha/123595_i.png'
     ,'[キャラクター] ★★★ ヴィッテ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/126914_i.png'
+    ,'[キャラクター] ★★★★★ ルイーゼ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130491_i.png'
+    ,'[キャラクター] ★★★★ ルーエン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130492_i.png'
+    ,'[キャラクター] ★★★ ピドット https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130509_i.png'
 	
 	,'[ドラゴン] ★★★★★ アグニ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121373_i.png'
 	,'[ドラゴン] ★★★★★ ワキヤン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121376_i.png'
@@ -117,6 +120,7 @@ const a_Gacha = [
 	,'[ドラゴン] ★★★ エアリアルインプ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121398_i.png'
 	,'[ドラゴン] ★★★ スターインプ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121401_i.png'
 	,'[ドラゴン] ★★★ グレイヴインプ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121404_i.png'
+	,'[ドラゴン] ★★★★★ ガルーダ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130493_i.png'
 	
 	,'[竜輝の護符] ★★★★★ ブレイジング・クラウン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121409_i.png'
 	,'[竜輝の護符] ★★★★★ ゴージャス・パーティ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121412_i.png'
