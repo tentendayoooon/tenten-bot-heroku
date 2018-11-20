@@ -47,7 +47,10 @@ const a_Gacha_Rare5 = [
 		,'[竜輝の護符] ★★★★★ テンペストグローリー https://gamewith.akamaized.net/article_tools/dragalialost/gacha/124316_i.png'
 		,'[竜輝の護符] ★★★★★ 宝石と剣 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127017_i.png'
 		,'[竜輝の護符] ★★★★★ クラウの策略 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127018_i.png'
-];
+
+		,'[キャラクター] ☆☆☆☆☆ この世ならざるもの https://stamp.bokete.jp/62357695.png'
+		,'[ドラゴン] ☆☆☆☆☆ バハムート http://tn.smilevideo.jp/smile?i=25973277.L'
+	];
 
 const a_Gacha_Rare4 = [
 		 '[キャラクター] ★★★★ カール https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121326_i.png'
@@ -124,7 +127,16 @@ const a_Gacha_Rare4 = [
 		,'[竜輝の護符] ★★★★ 五竜の咆哮：ゾディアーク https://gamewith.akamaized.net/article_tools/dragalialost/gacha/124315_i.png'
 		,'[竜輝の護符] ★★★★ サムライたちの休息 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127015_i.png'
 		,'[竜輝の護符] ★★★★ 鮮烈なコンビネーション https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127056_i.png'
-];
+
+		,'[キャラクター] ☆☆☆☆ 寝るシェラ https://i.ytimg.com/vi/dTOM1_eKaLk/hqdefault.jpg'
+		,'[キャラクター] ☆☆☆☆ 寝るフィリス [[画像提供求む！]]'
+		,'[キャラクター] ☆☆☆☆ ゼシア https://cdn.gamerch.com/contents/wiki/70/entry/4CaoGgos.png'
+		,'[キャラクター] ☆☆☆☆ シーリス https://cdn.gamerch.com/contents/wiki/70/entry/TedcsiV5.jpg'
+		,'[キャラクター] ☆☆☆☆ アローラス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121429_i.png'
+
+		,'[ドラゴン] ☆☆☆☆ フレガノス https://gamewith.akamaized.net/img/e650439ceae88d280eba6eb38f7529fa.jpg'
+		,'[ドラゴン] ☆☆☆☆ ヒュプノス https://gamewith.akamaized.net/img/1efdcc85930eebbc4371fecbbce0e1b0.jpg'
+	];
 
 const a_Gacha_Rare3 = [
 		 '[キャラクター] ★★★ アオイ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121341_i.png'
@@ -205,7 +217,20 @@ const a_Gacha_Rare3 = [
 		,'[竜輝の護符] ★★★ パンプキンボックス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/123802_i.png'
 		,'[竜輝の護符] ★★★ 過ぎ去りし日の王冠 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/122959_i.png'
 		,'[竜輝の護符] ★★★ お出かけの日のとっておき https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127014_i.png'
-];
+
+		,'[キャラクター] ☆ エミュール https://cdn.gamerch.com/contents/wiki/70/entry/pwAHaNj9.jpg'
+		,'[キャラクター] ☆☆☆ ヴァルクス https://cdn.gamerch.com/contents/wiki/70/entry/uFnIAavN.jpg'
+		,'[キャラクター] ☆☆☆ ファルエス https://cdn.gamerch.com/contents/wiki/70/entry/dl6kmFHb.jpg'
+		,'[キャラクター] ☆☆☆ シェス https://cdn.gamerch.com/contents/wiki/70/entry/SGk7sEIM.jpg'
+		,'[キャラクター] ☆☆☆ レオニード https://cdn.gamerch.com/contents/wiki/70/entry/jcz7rSkb.jpg'
+		,'[キャラクター] ☆☆☆ ハール https://cdn.gamerch.com/contents/wiki/70/entry/WXiaQKPK.jpg'
+		,'[キャラクター] ☆☆☆ リーフ https://cdn.gamerch.com/contents/wiki/70/entry/YPzshu0a.jpg'
+		
+		,'[ドラゴン] ☆☆☆ ナーム http://livedoor.blogimg.jp/dragalialostn10cg/imgs/7/b/7b749225-s.png'
+		,'[ドラゴン] ☆☆☆ アーケオル王 https://img.altema.jp/dragalialost/uploads/2018/10/2018y10m04d_1600428803.jpg'
+		,'[ドラゴン] ☆☆☆ カボチャクロプス https://gamewith.akamaized.net/img/eeeab4dc40fd5b6dbd4cb28d7e892f8e.jpg'
+		,'[ドラゴン] ☆☆☆ ストームストーン https://img.altema.jp/dragalialost/uploads/2018/11/2018y11m01d_1417231075.jpg'
+	];
 
 /*
 const a_Gacha = [
