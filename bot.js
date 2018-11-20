@@ -525,7 +525,7 @@ client.on('message', message => {
 		/*
 		let gacha = a_Gacha[Math.floor(Math.random() * a_Gacha.length)];
 		*/
-		message.reply(gacha+' が出たよ !!');
+		message.reply(gacha+' が出たよ !!'+parseInt(num));
 	}
 
 });
