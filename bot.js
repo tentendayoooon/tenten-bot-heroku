@@ -373,12 +373,13 @@ client.on('message', message => {
 		message.reply(gacha+' が出たよ !!'+parseInt(num));
 	}
 
-	if (msg.indexOf('!アイテム交換') !== -1) {
+	if (msg.indexOf('!アイテムガチャ') !== -1) {
 		let gacha;
 		for ( var i = 0; i < 10; i++)	{
 			if(i > 0) gacha += ", ";
 			gacha += a_Gacha_Item[Math.floor(Math.random() * a_Gacha_Item.length)];
 		}
+		message.reply(gacha+' が出たよ !!');
 	}
 
 });
