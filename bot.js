@@ -146,6 +146,7 @@ const a_Gacha_Rare4 = [
 
 		,'[ドラゴン] ☆☆☆☆ フレガノス https://gamewith.akamaized.net/img/e650439ceae88d280eba6eb38f7529fa.jpg'
 		,'[ドラゴン] ☆☆☆☆ ヒュプノス https://gamewith.akamaized.net/img/1efdcc85930eebbc4371fecbbce0e1b0.jpg'
+		,'[ドラゴン] ☆☆☆☆ サブナック https://gamewith.akamaized.net/img/ceb14c80ac22050d7605bb4893892dc7.jpg'
 	];
 
 const a_Gacha_Rare3 = [
@@ -241,6 +242,7 @@ const a_Gacha_Rare3 = [
 		,'[ドラゴン] ☆☆☆ アーケオル王 https://img.altema.jp/dragalialost/uploads/2018/10/2018y10m04d_1600428803.jpg'
 		,'[ドラゴン] ☆☆☆ カボチャクロプス https://gamewith.akamaized.net/img/eeeab4dc40fd5b6dbd4cb28d7e892f8e.jpg'
 		,'[ドラゴン] ☆☆☆ ストームストーン https://img.altema.jp/dragalialost/uploads/2018/11/2018y11m01d_1417231075.jpg'
+		,'[ドラゴン] ☆☆☆ マンティコア https://gamewith.akamaized.net/img/664ead353cddb059fdad9512bdc924b7.jpg'
 	];
 
 client.on('ready', () => {
