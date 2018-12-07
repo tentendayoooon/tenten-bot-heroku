@@ -374,7 +374,7 @@ client.on('message', message => {
 	}
 
 	if (msg.indexOf('!アイテムガチャ') !== -1) {
-		let gacha;
+		let gacha = "";
 		for ( var i = 0; i < 10; i++)	{
 			if(i != 0) gacha += ", ";
 			gacha += a_Gacha_Item[Math.floor(Math.random() * a_Gacha_Item.length)];
