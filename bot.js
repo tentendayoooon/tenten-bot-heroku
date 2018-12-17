@@ -382,6 +382,10 @@ client.on('message', message => {
 		message.reply(gacha+' が出たよ !!');
 	}
 
+	if (msg.indexOf('くそbot') !== -1) {
+		message.reply('お前の運勢、今日一日 https://cdn.gamerch.com/contents/wiki/70/entry/pwAHaNj9.jpg だからな…');
+	}
+
 });
 
 // THIS  MUST  BE  THIS  WAY
