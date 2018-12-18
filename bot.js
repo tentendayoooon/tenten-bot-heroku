@@ -17,6 +17,7 @@ const a_Gacha_Rare5 = [
 		,'[キャラクター] ★★★★★ ナジャーフ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/126557_i.png'
 		,'[キャラクター] ★★★★★ ルイーゼ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130491_i.png'
 		,'[キャラクター] ★★★★★ ルクレツィア https://gamewith.akamaized.net/article_tools/dragalialost/gacha/131878_i.png'
+		,'[キャラクター] ★★★★★ 星竜祭Ver.クラウ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/134550_i.png'
 
 		,'[ドラゴン] ★★★★★ アグニ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121373_i.png'
 		,'[ドラゴン] ★★★★★ ワキヤン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121376_i.png'
@@ -31,6 +32,7 @@ const a_Gacha_Rare5 = [
 		,'[ドラゴン] ★★★★★ マリティムス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/131880_i.png'
 		,'[ドラゴン] ★★★★★ 真ミドガルズオルム https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132302_i.png'
 		,'[ドラゴン] ★★★★★ キューピッド https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132309_i.png'
+		,'[ドラゴン] ★★★★★ 星竜祭Ver.ジャンヌダルク https://gamewith.akamaized.net/article_tools/dragalialost/gacha/134553_i.png'
 
 		,'[竜輝の護符] ★★★★★ ブレイジング・クラウン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121409_i.png'
 		,'[竜輝の護符] ★★★★★ ゴージャス・パーティ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121412_i.png'
@@ -52,6 +54,8 @@ const a_Gacha_Rare5 = [
 		,'[竜輝の護符] ★★★★★ クラウの策略 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/127018_i.png'
 		,'[竜輝の護符] ★★★★★ 響き渡る歌声 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132310_i.png'
 		,'[竜輝の護符] ★★★★★ 聖職者の休日 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132312_i.png'
+		,'[竜輝の護符] ★★★★★ 星竜樹に願いを https://gamewith.akamaized.net/img/aa62977f71919435278fa452f063be71.jpg'
+		,'[竜輝の護符] ★★★★★ 星竜祭の王子様 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/134555_i.png'
 
 		,'[キャラクター] ☆☆☆☆☆ この世ならざるもの https://stamp.bokete.jp/62357695.png'
 		,'[ドラゴン] ☆☆☆☆☆ バハムート http://tn.smilevideo.jp/smile?i=25973277.L'
@@ -87,6 +91,8 @@ const a_Gacha_Rare4 = [
 		,'[キャラクター] ★★★★ エリアス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/131879_i.png'
 		,'[キャラクター] ★★★★ ヴィクセル https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132649_i.png'
 		,'[キャラクター] ★★★★ ピアチェ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/132650_i.png'
+		,'[キャラクター] ★★★★ 星竜祭Ver.ネファリエ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/134551_i.png'
+		,'[キャラクター] ★★★★ 星竜祭Ver.アレクシス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/134552_i.png'
 
 		,'[ドラゴン] ★★★★ フェニックス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121379_i.png'
 		,'[ドラゴン] ★★★★ イフリート https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121380_i.png'
@@ -243,6 +249,7 @@ const a_Gacha_Rare3 = [
 		,'[ドラゴン] ☆☆☆ カボチャクロプス https://gamewith.akamaized.net/img/eeeab4dc40fd5b6dbd4cb28d7e892f8e.jpg'
 		,'[ドラゴン] ☆☆☆ ストームストーン https://img.altema.jp/dragalialost/uploads/2018/11/2018y11m01d_1417231075.jpg'
 		,'[ドラゴン] ☆☆☆ マンティコア https://gamewith.akamaized.net/img/664ead353cddb059fdad9512bdc924b7.jpg'
+		,'[ドラゴン] ☆☆☆ デコレーショントレント https://gamewith.akamaized.net/img/d0e01aed28223c144c29f278f49b7b10.jpg'
 	];
 
 const a_Gacha_Item = [
