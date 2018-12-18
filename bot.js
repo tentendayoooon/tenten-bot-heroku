@@ -393,6 +393,14 @@ client.on('message', message => {
 		message.reply('お前の運勢、今日一日 https://cdn.gamerch.com/contents/wiki/70/entry/pwAHaNj9.jpg だからな…');
 	}
 
+	if (msg.indexOf('!TS') !== -1) {
+		const prefix = '!';
+		const args = message.content.slice(prefix.length).trim().split(/ +/g);
+		const command = args.shift().toLowerCase();
+		let speech = args[0];
+
+		message.reply(command +', ' + speech);
+	}
 });
 
 // THIS  MUST  BE  THIS  WAY
