@@ -393,9 +393,9 @@ client.on('message', message => {
 	if (msg.indexOf('!ガチャ') !== -1) {
 		let gacha;
 		var num = Math.floor(Math.random() * 100);
-		if ( num < 10 ) {
+		if ( num < 15 ) {
 			gacha = a_Gacha_Rare5[Math.floor(Math.random() * a_Gacha_Rare5.length)];
-		} else if ( num < 40 ) {
+		} else if ( num < 50 ) {
 			gacha = a_Gacha_Rare4[Math.floor(Math.random() * a_Gacha_Rare4.length)];
 		} else {
 			gacha = a_Gacha_Rare3[Math.floor(Math.random() * a_Gacha_Rare3.length)];
