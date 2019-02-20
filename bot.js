@@ -21,6 +21,7 @@ const a_Gacha_Rare5 = [
 		,'[キャラクター] ★★★★★ イエヤス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/136533_i.png'
 		,'[キャラクター] ★★★★★ アンネリーエ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/137999_i.png'
 		,'[キャラクター] ★★★★★ リンユー https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141150_i.png'
+		,'[キャラクター] ★★★★★ バレンタインヒルデガルド https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142407_i.png'
 
 		,'[ドラゴン] ★★★★★ アグニ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121373_i.png'
 		,'[ドラゴン] ★★★★★ ワキヤン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121376_i.png'
@@ -41,7 +42,8 @@ const a_Gacha_Rare5 = [
 		,'[ドラゴン] ★★★★★ シシマイ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/136607_i.png'
 		,'[ドラゴン] ★★★★★ ライガ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/138000_i.png'
 		,'[ドラゴン] ★★★★★ ロンロン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141151_i.png'
-		,'[ドラゴン] ★★★★★ ホウライ '
+		,'[ドラゴン] ★★★★★ ホウライ https://img.game8.jp/2737631/9e1cb5d1b9c76a0472a890f674ca3afe.jpeg/show'
+		,'[ドラゴン] ★★★★★ プロメテウス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142412_i.png'
 
 		,'[竜輝の護符] ★★★★★ ブレイジング・クラウン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121409_i.png'
 		,'[竜輝の護符] ★★★★★ ゴージャス・パーティ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121412_i.png'
@@ -75,6 +77,12 @@ const a_Gacha_Rare5 = [
 		,'[竜輝の護符] ★★★★★ ワンダフルトリック https://gamewith.akamaized.net/article_tools/dragalialost/gacha/138285_i.png'
 		,'[竜輝の護符] ★★★★★ 戦旗の乙女 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141152_i.png'
 		,'[竜輝の護符] ★★★★★ 功夫の道 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141153_i.png'
+		,'[竜輝の護符] ★★★★★ チョコレート・レッスン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142435_i.png'
+		,'[竜輝の護符] ★★★★★ ローズフェアリー https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142515_i.png'
+		,'[竜輝の護符] ★★★★★ 漢のバレンタイン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142517_i.png'
+		,'[竜輝の護符] ★★★★★ ラッピングフィール https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142520_i.png'
+		,'[竜輝の護符] ★★★★★ エレガントエスコート https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142827_i.png'
+		,'[竜輝の護符] ★★★★★ トキメキ☆デートスタイル https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142828_i.png'
 
 		,'[キャラクター] ☆☆☆☆☆ この世ならざるもの https://stamp.bokete.jp/62357695.png'
 		,'[ドラゴン] ☆☆☆☆☆ バハムート http://tn.smilevideo.jp/smile?i=25973277.L'
@@ -118,6 +126,7 @@ const a_Gacha_Rare4 = [
 		,'[キャラクター] ★★★★ フリッツ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/138080_i.png'
 		,'[キャラクター] ★★★★ クガイ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141270_i.png'
 		,'[キャラクター] ★★★★ スオウ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141307_i.png'
+		,'[キャラクター] ★★★★ バレンタインエゼリット https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142424_i.png'
 
 		,'[ドラゴン] ★★★★ フェニックス https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121379_i.png'
 		,'[ドラゴン] ★★★★ イフリート https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121380_i.png'
@@ -173,7 +182,9 @@ const a_Gacha_Rare4 = [
 		,'[竜輝の護符] ★★★★ 新年最初の運試し https://gamewith.akamaized.net/img/a5c59def3f20096338a1fb8954f1b6cf.jpg'
 		,'[竜輝の護符] ★★★★ 地道な活動 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/138084_i.png'
 		,'[竜輝の護符] ★★★★ 春節のお祭り https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141275_i.png'
-		,'[竜輝の護符] ★★★★ ドラゴンダンス '
+		,'[竜輝の護符] ★★★★ ドラゴンダンス https://img.game8.jp/2737631/9e1cb5d1b9c76a0472a890f674ca3afe.jpeg/show'
+		,'[竜輝の護符] ★★★★ 薔薇の貴公子 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142436_i.png'
+		,'[竜輝の護符] ★★★★ 炎の饗宴 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142505_i.png'
 
 		,'[キャラクター] ☆☆☆☆ 寝るシェラ https://i.ytimg.com/vi/dTOM1_eKaLk/hqdefault.jpg'
 		,'[キャラクター] ☆☆☆☆ 寝るフィリス [[画像提供求む！]]'
@@ -225,6 +236,7 @@ const a_Gacha_Rare3 = [
 		,'[キャラクター] ★★★ ピドット https://gamewith.akamaized.net/article_tools/dragalialost/gacha/130509_i.png'
 		,'[キャラクター] ★★★ マーティ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/138082_i.png'
 		,'[キャラクター] ★★★ シャオレイ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141272_i.png'
+		,'[キャラクター] ★★★ バレンタインオリオン https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142425_i.png'
 
 		,'[ドラゴン] ★★★ ホムラリュウ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121390_i.png'
 		,'[ドラゴン] ★★★ フブキリュウ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/121393_i.png'
@@ -273,6 +285,7 @@ const a_Gacha_Rare3 = [
 		,'[竜輝の護符] ★★★ ヴィオ・ライジエ・アルベリア！ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/136541_i.png'
 		,'[竜輝の護符] ★★★ 輝ける場所 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/136610_i.png'
 		,'[竜輝の護符] ★★★ 仙花焔 https://gamewith.akamaized.net/article_tools/dragalialost/gacha/141278_i.png'
+		,'[竜輝の護符] ★★★ 最愛の人へ https://gamewith.akamaized.net/article_tools/dragalialost/gacha/142512_i.png'
 
 		,'[キャラクター] ☆ エミュール https://cdn.gamerch.com/contents/wiki/70/entry/pwAHaNj9.jpg'
 		,'[キャラクター] ☆☆☆ ヴァルクス https://cdn.gamerch.com/contents/wiki/70/entry/uFnIAavN.jpg'
