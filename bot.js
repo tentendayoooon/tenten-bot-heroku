@@ -196,6 +196,10 @@ const a_Gacha_Rare4 = [
 		,'[ドラゴン] ☆☆☆☆ ヒュプノス https://gamewith.akamaized.net/img/1efdcc85930eebbc4371fecbbce0e1b0.jpg'
 		,'[ドラゴン] ☆☆☆☆ サブナック https://gamewith.akamaized.net/img/ceb14c80ac22050d7605bb4893892dc7.jpg'
 		,'[ドラゴン] ☆☆☆☆ ヴァルファレール https://gamewith.akamaized.net/img/4fbbc00b490f74f66bbaf5b3e2287585.jpg'
+		,'[ドラゴン] ☆☆☆☆ ワンダリングマッシュ https://gamewith.akamaized.net/img/61bd8b2e615f4f933a13613c2d80d09a.jpg'
+		,'[ドラゴン] ☆☆☆☆ スチールゴーレム https://gamewith.akamaized.net/img/d8e0264b0559607942a57f8a2d37673f.jpg'
+		,'[ドラゴン] ☆☆☆☆ マンティコアフューリー https://gamewith.akamaized.net/img/638b4df3c86ba5619166f1f46584b582.jpg'
+		,'[ドラゴン] ☆☆☆☆ ワキヤン・ヴォイド https://gamewith.akamaized.net/img/e7026dae7b1a0515db35ad4362858d07.jpg'
 	];
 
 const a_Gacha_Rare3 = [
